@@ -83,7 +83,7 @@ resource "aws_db_subnet_group" "default" {
 
   tags = merge(
     var.common_tags,
-    var.subnet_database_tags,
+    var.db_subnet_group_tags,
     {
       Name = local.resource_name
     }

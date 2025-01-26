@@ -7,7 +7,7 @@ variable "environment" {
 }
 
 variable "vpc_cidr" {
-    type = string
+   
 }
 
 variable "enable_dns_hostnames" {
@@ -63,7 +63,7 @@ variable "private_subnet_cidrs"{
     default = {}
  }
 
-variable "subnet_database_tags"{
+variable "db_subnet_group_tags"{
     default = {}
 }
 
